@@ -68,7 +68,7 @@ export default function MainNavbar() {
         >
           <Box sx={{
             bgcolor: alpha(theme.palette.background.paper, 0.72),
-            backdropFilter: open ? "none" : "blur(20px)",
+            backdropFilter: "blur(20px)",
             height: "150px",
             width: 150,
             position: "relative",
