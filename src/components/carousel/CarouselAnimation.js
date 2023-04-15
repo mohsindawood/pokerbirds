@@ -95,7 +95,7 @@ export default function CarouselAnimation() {
               <Stack direction="row" gap={3}>
                 <Button
                   size="large"
-                  onClick={() => push("/portfolio")}
+                  onClick={() => push("/")}
                   variant="contained"
                   endIcon={<ArrowForwardIosIcon size="small" />}
                   sx={{ svg: { fontSize: "15px !important" } }}
@@ -103,7 +103,7 @@ export default function CarouselAnimation() {
                   View showcase
                 </Button>
 
-                <Button
+                {/* <Button
                   onClick={() => push("/product")}
                   size="large"
                   variant="contained"
@@ -112,7 +112,7 @@ export default function CarouselAnimation() {
                   sx={{ svg: { fontSize: "15px !important" } }}
                 >
                   Our Product
-                </Button>
+                </Button> */}
               </Stack>
             </Box>
           </Grid>
